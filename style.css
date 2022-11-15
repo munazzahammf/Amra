@@ -1,0 +1,187 @@
+*{
+      padding:5px;
+      margin:0 ;
+      
+      
+}
+body {
+          
+      font-family:Georgia, 'Times New Roman', Times, serif;   
+      background-color:rgb(244, 228, 197);    
+ }
+.products div.gallery {
+      margin: 10px;
+      border: 2px solid rgb(129, 7, 7);
+      float: left;
+      width: 180px;
+}
+    
+.products div.gallery:hover {
+      border: 1px solid rgb(129, 7, 7);
+}
+    
+.products div.gallery img {
+      width: 500px;
+      height: 200px;
+      box-sizing: border-box;
+}
+    
+.products div.desc {
+      padding: 15px;
+      text-align: center;
+}
+h1{
+      color:rgb(129, 7, 7);
+      text-align: center;
+      font-size: 40px;
+ }
+h2{
+      
+      text-align: center;
+      font-size: 60px;
+      color:#164A41;   
+      text-shadow: 2px 2px;
+}
+strong{
+      color: #164A41;
+}
+.container_main{
+      align-items: flex-end;
+}
+.navbar{
+      width: 65%;
+      margin: auto;
+      padding: 35px 0;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.navbar ul li {
+      list-style:none ;
+      display: inline-block;
+      margin: 0 20px;
+      position: relative;
+      
+}
+.navbar ul li a{
+      text-decoration: none;
+      color:#164A41;
+      text-transform: uppercase;
+      font-size: larger;
+      color:rgb(129, 7, 7) ;
+      font-weight: 100;
+
+}
+.navbar ul li::after{
+      content: '';
+      height: 3px;
+      width: 0;
+      background:rgb(129, 7, 7);
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      transition: 0.5s;
+}
+.navbar ul li:hover::after{
+      width: 100%;
+}
+
+p {
+      background-color:#164A41;
+      padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 80px;
+      outline-style: dashed;
+      border: 1px solid rgb(129, 7, 7);
+      font-size: 20px;
+      line-height: 20px;
+      color:wheat;
+      font-weight:400;
+      text-align: left;
+}
+h1 {
+      font-size: 24px 
+ }
+img{
+      max-width: 100%;
+      height:auto;
+      display: block;
+      margin-right:500px;      
+}
+
+
+/** contact  section **/
+
+.contact {
+      
+      padding-top: 80px;
+      background: #fff;
+ }
+ 
+ .contact .titlepage {
+      text-align: center;
+ }
+ 
+ .contact .titlepage h2 {
+      color:rgb(129, 7, 7);
+ }
+ 
+ .contact_form .contact_control {
+      margin-bottom: 20px;
+      width: 100%;
+      height: 55px;
+      background: transparent;
+      color: rgb(129, 7, 7);
+      font-size: 18px;
+      font-weight: normal;
+      border-bottom: #003471 solid 1px !important;
+      border: inherit;
+ }
+ 
+ .contact_form .textarea {
+      margin-bottom: 20px;
+      width: 100%;
+      background: transparent;
+      color: rgb(129, 7, 7);
+      font-size: 18px;
+      font-weight: normal;
+      padding-top: 10px;
+      height: 150px;
+      border-bottom: #003471 solid 1px !important;
+      border: inherit;
+ }
+ 
+ .contact_form .send_btn {
+      font-size: 20px;
+      transition: ease-in all 0.5s;
+      background-color: #F1B24A;
+      text-transform: uppercase;
+      color: #fffefe;
+      padding: 15px 0px;
+      border-radius: 40px;
+      max-width: 217px;
+      width: 100%;
+      display: block;
+      margin-top: 30px !important;
+      font-weight: 600;
+      margin: 0 auto;
+ }
+ 
+ .contact_form .send_btn:hover {
+      background-color: #092352;
+      transition: ease-in all 0.5s;
+      color: #fff;
+ }
+ 
+ #post_form *::placeholder {
+      color: rgb(129, 7, 7);
+      opacity: 1;
+ }
+ 
+ 
+ /** end contact  section **/
+
+      
+
